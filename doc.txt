@@ -1,0 +1,8 @@
+
+on the folder write;
+
+$ npx create-react-app projeto --template typescript --use-npm 
+
+$ cd projeto 
+
+$ npm start
