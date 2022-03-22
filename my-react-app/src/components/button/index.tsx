@@ -1,6 +1,6 @@
 import react from 'react';
 
-class Botao extends React.Component{
+class Botao extends react.Component{
     render(){
         return(
             <button>            
