@@ -2,10 +2,11 @@ import React from 'react';
 import Botao from '../components/button';
 import Formulario from '../components/formulario';
 import Lista from '../components/Lista';
+import './style.scss';
 
 function App() {
   return (
-    <div className="App">
+    <div className="AppStyle">
      <Formulario/>
      <Lista/>
     </div>
