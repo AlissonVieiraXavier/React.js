@@ -6,7 +6,7 @@ class Formulario extends react.Component{
    render() {
        return(
            <form className="novaTarefa">
-               <div>
+               <div className="inputContainer">
                     <label htmlFor='tarefa'> Adicione um novo estudo</label>
                     <input 
                     type="text" 
@@ -16,7 +16,7 @@ class Formulario extends react.Component{
                     required>
                     </input>
                </div>
-               <div>
+               <div className="inputContainer">
                     <label htmlFor='tempo'> Tempo </label>
                     <input type="time"
                     step='1'
