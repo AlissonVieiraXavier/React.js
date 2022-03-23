@@ -5,7 +5,7 @@ class Botao extends react.Component{
     render(){
       return(
             <button className={style.botao}>            
-                Clique Aqui
+                {this.props.children}
             </button>
         )
     }

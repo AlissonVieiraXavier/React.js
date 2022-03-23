@@ -29,7 +29,9 @@ class Formulario extends react.Component{
                     </input>
                 </div>
 
-                    <Botao />
+                    <Botao>Adicionar</Botao> 
+                       
+                    
            </form>
        )
    }
