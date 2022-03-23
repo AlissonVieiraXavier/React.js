@@ -1,8 +1,8 @@
-import react from 'react'
+import React from 'react'
 import Botao from '../button'
 import style from'./Formulario.module.scss'
 
-class Formulario extends react.Component{
+class Formulario extends React.Component{
    render() {
        return(
            <form className={style.novaTarefa}>
