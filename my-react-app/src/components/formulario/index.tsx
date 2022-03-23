@@ -1,10 +1,11 @@
 import react from 'react'
 import Botao from '../button'
+import './style.scss'
 
 class Formulario extends react.Component{
    render() {
        return(
-           <form>
+           <form className="novaTarefa">
                <div>
                     <label htmlFor='tarefa'> Adicione um novo estudo</label>
                     <input 
