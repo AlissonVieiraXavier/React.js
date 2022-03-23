@@ -1,5 +1,4 @@
 import React from 'react';
-import Botao from '../components/button';
 import Formulario from '../components/formulario';
 import Lista from '../components/Lista';
 import style from'./style.module.scss';
