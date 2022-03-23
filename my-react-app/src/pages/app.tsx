@@ -1,7 +1,7 @@
 import React from 'react';
-import Botao from './components/button';
-import Formulario from './components/formulario';
-import Lista from './components/Lista';
+import Botao from '../components/button';
+import Formulario from '../components/formulario';
+import Lista from '../components/Lista';
 
 function App() {
   return (
