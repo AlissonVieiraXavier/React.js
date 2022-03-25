@@ -1,4 +1,4 @@
-import style from "./Relogio.module.scss";
+import style from './Relogio.module.scss';
 
 export default function Relogio() {
   return (
@@ -9,5 +9,5 @@ export default function Relogio() {
       <span className={style.relogioNumero}>0</span>
       <span className={style.relogioNumero}>0</span>
     </>
-  );
+  )
 }

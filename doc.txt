@@ -6,3 +6,9 @@ $ npx create-react-app projeto --template typescript --use-npm
 $ cd projeto 
 
 $ npm start
+
+
+
+//css modules
+
+$ npm install -D typescript-plugin-css-modules
