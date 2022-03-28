@@ -1,12 +1,16 @@
 import React from 'react';
-import Navbar from './components/Navbar.tsx';
+import Navbar from '../components/Navbar';
+//import Navbar from '../components/Navbar';
 
-function App() {
+export default function App() {
   return (
-    <div>
-     <Navbar />
-    </div>
+    <>
+    
+      <Navbar/>
+
+
+    </>
   )
 }
 
-export default App;
+

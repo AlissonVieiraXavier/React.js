@@ -1,10 +1,15 @@
-import React from 'react'
-//import style from './Navbar.module.scss'
+import React from 'react';
+import { FaBars } from 'react-icons/fa';
+
 
 function Navbar() {
   return (
     <>
-      <div className="navbar"></div>
+      <div className="navbar">
+    
+      <FaBars/>
+      
+      </div>
 
     </>
   )
