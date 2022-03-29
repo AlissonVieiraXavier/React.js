@@ -9,7 +9,7 @@
 .menu-bar{
     margin:2em 0.7em auto 1em;
     font-size:25px;
-    color: white;
+    color:white;
 }
 .menu-img{
     width:28%;
@@ -43,4 +43,31 @@
 }
 .icons-nav{
     margin:auto 0.5em -5px auto;
+}
+.titletop{
+ margin: 2.5em 0em 1em 1em;
+font-size: 20px;
+padding: 0%;
+
+
+ }
+.titletop::after{
+    content:'';
+    border-right: 2px solid rgba(255, 255, 255, 0.994);
+    animation: piscarCursor 700ms infinite normal;
+    margin-left:-10px;
+ }
+
+.titletop .icons-nav{
+    font-size: 25px;  
+}
+
+
+@keyframes piscarCursor{
+    from{
+    border-right-color: rgba(255, 255, 255, 0.994);
+    }
+    to{
+    border-right-color:transparent;
+    }
 }

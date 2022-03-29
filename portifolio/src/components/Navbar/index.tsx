@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ReactDOM from 'react-dom';
 import './Navbar.css'
 import { FaBars } from 'react-icons/fa';
@@ -6,17 +6,21 @@ import { BsBook} from 'react-icons/bs';
 import { FaPencilAlt } from 'react-icons/fa';
 import { BsEmojiSunglasses } from 'react-icons/bs';
 import { HiOutlinePhone } from 'react-icons/hi';
-const perfil = require('./img/perfil.webp') 
+import { MdComputer } from 'react-icons/md';
+//const perfil = require('./img/perfil.webp');
+//<img src={perfil} className="menu-img"></img> 
 
 
 function Navbar() {
+  const [state, setState] =  useState(false);
 
   return (
     <>
       <div className='navbar'>
       <span className="menu-bar"><FaBars/></span>
+      <h1 className='titletop'> Dev. Alisson Xavier <MdComputer className="icons-nav" /></h1>
       
-      <img src={perfil} className="menu-img"></img>
+      
       
       
       </div>
