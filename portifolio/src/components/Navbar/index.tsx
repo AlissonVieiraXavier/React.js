@@ -29,10 +29,10 @@ function Navbar() {
       </div>
       <div className={`${isOpen ? 'nav-options-active' : 'nav-options' }`}>
         <ul className='nav-options-ul'>
-          <a href="#" className='nav-options-li'><BsBook className="icons-nav"/>  Portifolio</a>
-          <a href="#" className='nav-options-li'><FaPencilAlt className="icons-nav" />Habilidades</a>
-          <a href="#" className='nav-options-li'><BsEmojiSunglasses className="icons-nav" />Sobre mim</a>
-          <a href="#" className='nav-options-li'><HiOutlinePhone className="icons-nav"/> Contato</a>
+          <a href="#" className='nav-options-li'><BsBook className="icons-nav icons-nav-adp-desktop "/>Portfólio</a>
+          <a href="#" className='nav-options-li'><FaPencilAlt className="icons-nav icons-nav-adp-desktop" />Habilidades</a>
+          <a href="#" className='nav-options-li'><BsEmojiSunglasses className="icons-nav icons-nav-adp-desktop" />Sobre mim</a>
+          <a href="#" className='nav-options-li'><HiOutlinePhone className="icons-nav icons-nav-adp-desktop"/>Contato</a>
         </ul>
       </div>
     </>

@@ -5,20 +5,13 @@
     justify-content:space-between;
     background-color: #0d1017;
     height:8em;
+    box-shadow: 4px 12px 50px -1px #000000;;
 }
 .menu-bar{
     margin:2em 0.7em auto 1em;
     font-size:25px;
     color:white;
 }
-.menu-img{
-    width:28%;
-    border-radius:100% 40%;
-    height: 7em;
-    margin:0.5em 0.5em;
-    max-width: 100px;
-}
-
 .nav-options{
     margin-top:-800px;
     
@@ -87,4 +80,60 @@ overflow: hidden;
     to{
       width: 203px;
     }
+}
+@media screen and (min-width:765px) {
+    .menu-bar{
+       display:none;
+    }
+    .nav-options{
+        width:100%;
+        background-color: #0d1017;
+        margin-top:-115px;
+        transition:none;
+    }
+    .nav-options-ul{
+        display:flex;
+        flex-direction: row;
+        padding-top: 10px;
+        height: auto;
+        justify-content: right;
+        
+    }
+    .nav-options-li{
+        font-size:1.2em;
+        margin:1.5em 0.5em;
+        font-weight: 550;
+        color:#fff;
+        text-decoration:none;
+        transition:500ms;
+    }
+    .nav-options-li:hover{
+        color:rgba(255, 255, 255, 0.659); 
+    }
+    .icons-nav{
+        margin:auto 0.2em 0px auto;
+    }
+    .titletop{
+        margin: 2.5em 1em 4em 1em;
+        padding-top:-10px;
+        height:2em;
+    }
+        
+    .titletop .icons-nav{
+    font-size: 25px;
+    position:relative;
+    top:5px;  
+    }
+    .icons-nav-adp-desktop{
+       margin-left: 5px;
+        margin-bottom: -4px;
+      }
+}
+@media screen and (min-width:1000px) {
+    .nav-options-li{
+        font-size:1.2em;
+        margin:1.5em 1em;
+       
+    }
+ 
 }
