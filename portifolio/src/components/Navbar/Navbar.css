@@ -20,16 +20,17 @@
 }
 
 .nav-options{
-    width:100%;
-    background-color: #0d1017;
-    top: 0px;
-    transition:700ms;
+    margin-top:-800px;
     
     
 }
 .nav-options-active{
    
-    margin-top:-800px;
+    
+    width:100%;
+    background-color: #0d1017;
+    top: 0px;
+    transition:700ms;
 }
 .nav-options-ul{
     display:flex;

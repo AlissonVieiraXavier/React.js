@@ -27,7 +27,7 @@ function Navbar() {
       
       
       </div>
-      <div className={`${isOpen ? 'nav-options' : 'nav-options-active' }`}>
+      <div className={`${isOpen ? 'nav-options-active' : 'nav-options' }`}>
         <ul className='nav-options-ul'>
           <a href="#" className='nav-options-li'><BsBook className="icons-nav"/>  Portifolio</a>
           <a href="#" className='nav-options-li'><FaPencilAlt className="icons-nav" />Habilidades</a>
