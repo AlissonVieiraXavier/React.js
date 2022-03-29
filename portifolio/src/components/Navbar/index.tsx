@@ -10,6 +10,7 @@ const perfil = require('./img/perfil.webp')
 
 
 function Navbar() {
+
   return (
     <>
       <div className='navbar'>
