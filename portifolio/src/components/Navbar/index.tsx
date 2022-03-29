@@ -12,19 +12,22 @@ import { MdComputer } from 'react-icons/md';
 
 
 function Navbar() {
-  const [state, setState] =  useState(false);
-  //let = entradacod = "<>"
+  const [isOpen, setIsOpen] =  useState(false);
+  const handleToggle = () =>{
+    setIsOpen(!isOpen);
+  }
+ 
   return (
     <>
       <div className='navbar'>
-      <span className="menu-bar"><FaBars/></span>
+      <div onClick={handleToggle} className="menu-bar">
+        <FaBars/>
+        </div>
       <h1 className='titletop'> Dev. Alisson Xavier  <MdComputer className="icons-nav" /></h1>
       
       
-      
-      
       </div>
-      <div className='nav-options'>
+      <div className={`${isOpen ? 'nav-options' : 'nav-options-active' }`}>
         <ul className='nav-options-ul'>
           <a href="#" className='nav-options-li'><BsBook className="icons-nav"/>  Portifolio</a>
           <a href="#" className='nav-options-li'><FaPencilAlt className="icons-nav" />Habilidades</a>
