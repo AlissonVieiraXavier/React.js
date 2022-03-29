@@ -45,18 +45,17 @@
     margin:auto 0.5em -5px auto;
 }
 .titletop{
- margin: 2.5em 0em 1em 1em;
+ margin: 2.5em 1em 1em 1em;
 font-size: 20px;
 padding: 0%;
+border-right: 2px solid rgba(255, 255, 255, 0.994);
+height:1.2em;
+animation:piscarCursor 700ms infinite normal, typing 3s steps(35) 3s normal;
+white-space: nowrap;
+width: 203px;
+overflow: hidden;
+}
 
-
- }
-.titletop::after{
-    content:'';
-    border-right: 2px solid rgba(255, 255, 255, 0.994);
-    animation: piscarCursor 700ms infinite normal;
-    margin-left:-10px;
- }
 
 .titletop .icons-nav{
     font-size: 25px;  
@@ -69,5 +68,13 @@ padding: 0%;
     }
     to{
     border-right-color:transparent;
+    }
+}
+@keyframes typing{
+    from{
+        width:0;
+    }
+    to{
+      width: 203px;
     }
 }
