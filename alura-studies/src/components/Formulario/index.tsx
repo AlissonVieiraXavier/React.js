@@ -7,6 +7,7 @@ class Formulario extends React.Component {
     return (
       <form className={style.novaTarefa}>
         <div className={style.inputContainer}>
+          <h1 className={style.title}> Alura Studies</h1>
           <label htmlFor="tarefa">
             Adicione um novo estudo
           </label>
