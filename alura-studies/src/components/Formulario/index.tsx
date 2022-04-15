@@ -6,8 +6,9 @@ class Formulario extends React.Component {
   render() {
     return (
       <form className={style.novaTarefa}>
-        <div className={style.inputContainer}>
-          <h1 className={style.title}> Alura Studies</h1>
+        <h1 className={style.title}> Alura Studies</h1>
+        
+        <div className={style.inputContainer}> 
           <label htmlFor="tarefa">
             Adicione um novo estudo
           </label>
@@ -33,7 +34,7 @@ class Formulario extends React.Component {
             required
           />
         </div>
-        <Botao texto="Adicionar"/>
+        <Botao texto='Adicionar'/>
       </form>
     )
   }
