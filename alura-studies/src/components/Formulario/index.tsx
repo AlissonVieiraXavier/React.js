@@ -5,7 +5,7 @@ import style from './Formulario.module.scss';
 class Formulario extends React.Component {
   state = {
     tarefa: "",
-    tempo: "00:00" 
+    tempo: "00:00:00" 
   }
   render() {
     return (
