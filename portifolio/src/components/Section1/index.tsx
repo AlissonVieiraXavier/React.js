@@ -6,8 +6,7 @@ import { BiCodeAlt } from 'react-icons/bi';
 
 
 function Section1() {
-
- 
+  
   return (
     <div className="section-main">
      <figure><BiCodeAlt/></figure>

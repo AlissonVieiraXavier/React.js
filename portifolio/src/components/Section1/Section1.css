@@ -1,8 +1,5 @@
-@media screen and (min-width:0px) {
-
-    .section-main{
+.section-main{
     margin:0;
     background-color:red;
     height:200px;
-  }
 }
