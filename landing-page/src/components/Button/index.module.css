@@ -1,0 +1,15 @@
+.header_bottom_div_texto_button{
+    padding:12px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 20px;
+    border:0.5px solid #ffffff;
+    background:transparent;
+    color:#ffffff;
+    transition: 500ms;
+}
+.header_bottom_div_texto_button:hover{
+    background:#ffffff;
+    color:#90449a;
+}
