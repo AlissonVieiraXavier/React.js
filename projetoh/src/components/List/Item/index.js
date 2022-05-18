@@ -1,7 +1,9 @@
-export default function Item(props){
+export default function Item({item,lancamento}){
     return( 
         <>
-        <li>{props.item}</li>
+        <li>
+            {item} - {lancamento}
+        </li>
         </>
     )
 }
