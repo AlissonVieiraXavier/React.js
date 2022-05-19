@@ -1,0 +1,31 @@
+.animacao{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    margin: 30px 10px;
+    width: 90%;
+    justify-content:center;
+}
+.animacao_title{
+    text-align: left;
+    font-size:20px;
+    padding: 0 20px;
+    font-weight:700;
+    width: 100%;
+    
+}
+.animacao_img{
+    width:100%;
+    max-width: 500px;
+}
+@media screen and (min-width:768px){
+    .animacao{
+        display:flex;
+        align-items:center;
+        flex-direction: row-reverse;
+        margin: 30px 50px;
+        width: 100%;
+        justify-content:center;
+    }
+    
+}

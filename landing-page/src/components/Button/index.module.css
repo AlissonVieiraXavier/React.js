@@ -8,6 +8,7 @@
     background:transparent;
     color:#ffffff;
     transition: 500ms;
+    cursor: pointer;
 }
 .header_bottom_div_texto_button:hover{
     background:#ffffff;
