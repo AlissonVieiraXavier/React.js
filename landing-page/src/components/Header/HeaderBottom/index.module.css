@@ -19,7 +19,6 @@ float: right;
 }
 .header_bottom_div_texto{
     width:90%;
-    border: 1px solid white;
     margin: 20px 0;
     padding:13px;
    
@@ -30,11 +29,17 @@ float: right;
     line-height: 40px;
     color: #ffffff;
     letter-spacing: 1px;
+    padding: 0;
 }
 .header_bottom_div_texto_p{
     margin-top:10px;
     color: #ffffffb7;
 }
+.header_bottom_div_texto_button1{
+    margin-top:80px;
+    letter-spacing: 1px;
+}
+
 
 @media screen and (min-width:768px) {
     .header_bottom{
@@ -51,4 +56,13 @@ float: right;
        
     }
     
+}
+@media screen and (min-width:1000px) {
+    .header_bottom{
+        padding-left: 35px;
+    }   
+   
+    .header_bottom_div_texto_title{
+        padding: 20px 50px 20px 0px;
+    }
 }

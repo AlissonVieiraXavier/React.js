@@ -13,3 +13,9 @@
     background:#ffffff;
     color:#90449a;
 }
+.header_bottom_div_texto_button i{
+    font-size: 20px;
+    position: relative;
+    bottom: -6px;
+    margin-left: 10px;
+}
