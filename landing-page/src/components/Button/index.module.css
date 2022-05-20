@@ -1,18 +1,19 @@
 .header_bottom_div_texto_button{
     padding:12px 20px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     font-family: inherit;
     border-radius: 20px;
-    border:0.5px solid #ffffff;
+    border:0.5px solid black;
     background:transparent;
-    color:#ffffff;
+    color:black;
     transition: 500ms;
     cursor: pointer;
+    background:#ffffff;
 }
 .header_bottom_div_texto_button:hover{
-    background:#ffffff;
-    color:#90449a;
+    background:#90449a;
+    color:#ffffff;
 }
 .header_bottom_div_texto_button i{
     font-size: 20px;
