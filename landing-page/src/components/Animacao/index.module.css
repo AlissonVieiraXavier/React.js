@@ -1,31 +1,43 @@
 .animacao{
-    display:flex;
-    align-items:center;
-    flex-direction: column;
-    margin: 30px 10px;
-    width: 90%;
-    justify-content:center;
+display:flex;
+flex-direction: column;
+padding: 20px;
+align-items: center;
 }
 .animacao_title{
-    text-align: left;
-    font-size:20px;
-    padding: 0 20px;
-    font-weight:700;
-    width: 100%;
+  font-size: 20px;
+  font-weight:800;
+  padding: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 25px;
     
 }
 .animacao_img{
     width:100%;
     max-width: 500px;
 }
+.strong{
+ color:#90449a;
+ font-weight:900;
+ text-transform: uppercase;
+}
 @media screen and (min-width:768px){
     .animacao{
         display:flex;
-        align-items:center;
-        flex-direction: row-reverse;
-        margin: 30px 50px;
-        width: 100%;
-        justify-content:center;
+        flex-direction:row-reverse;
+        padding: 20px;
+        }
+    .animacao_title{
+        padding: 20px 100px;
+        animation:fadeIn 3s;
     }
-    
+
+
+}
+
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity:1;}
+
 }

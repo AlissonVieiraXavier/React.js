@@ -2,7 +2,7 @@
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    margin: 0px 0;
+    margin: 25px 0;
     width: 100%;
     height: auto;
 }
@@ -15,7 +15,7 @@
 max-width:20em;
 position:relative;
 float: center;
-bottom:-4px;
+bottom:-28px;
 
 }
 .header_bottom_div_texto{
@@ -57,7 +57,8 @@ bottom:-4px;
         max-width:30em;
         position:relative;
         float: center;
-        bottom:-3px;
+        top: 28px;
+        bottom:0px;
         }
 
     .header_bottom_div_texto_button1{
