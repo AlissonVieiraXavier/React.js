@@ -1,0 +1,27 @@
+.comentarios{
+    display: flex;
+    flex-direction: column;
+    background:#90449a;
+    align-items: center;
+    width:100%;
+    margin: 30px 0;
+    color:white;
+}
+h1{
+    font-size:20px;
+    font-weight:900;
+    padding: 20px;   
+}
+.content{ 
+  height:auto;
+  width:90%;
+  padding: 0;
+ }
+@media screen and (min-width:845px) {
+    .content{ 
+        height:auto;
+        width:90%;
+        padding: 0px;
+       }
+  
+}

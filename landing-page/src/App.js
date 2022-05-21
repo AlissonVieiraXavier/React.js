@@ -2,6 +2,7 @@ import Logo from "./assets/img/logo.png";
 import Header from "./components/Header";
 import Animacao from "./components/Animacao";
 import AlemDisso from "./components/AlemDisso";
+import Comentarios from "./components/Comentarios";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Header logo={Logo} alt="logotipo" />
       <Animacao/>
       <AlemDisso/>
+      <Comentarios/>
+
     </div>
   );
 }

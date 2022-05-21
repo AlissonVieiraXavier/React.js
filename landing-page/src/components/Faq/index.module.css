@@ -1,0 +1,18 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    padding:40px 20px;
+    align-items:center;
+    color: #ffffff;
+    margin: 20px auto;
+    background-color: #90449a;
+}
+.faq_h2{
+    font-weight: 800;
+    font-size: 20px;
+
+
+}
+.faq i{
+    font-size:inherit;
+}

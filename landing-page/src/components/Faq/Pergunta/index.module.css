@@ -1,0 +1,27 @@
+.pergunta{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:20px 0;
+    color:#ffffff;
+    font-size:20px;
+}
+.pergunta_duvida{
+  margin: 10px;
+  padding: 20px;
+}
+.pergunta_resposta{
+    margin: 10px;
+    padding: 20px;
+    display: none;
+}
+
+.pergunta_icon_down{
+    padding: 0 10px;
+    font-size: inherit;
+}
+.pergunta_icon_up{
+    padding: 0 10px;
+    font-size: inherit;
+    display: none;
+}
