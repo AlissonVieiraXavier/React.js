@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-//import styles from './index.module.css'
+import styles from './index.module.css'
 
 export default function SimpleSlider({img1,img2,img3}){
     
@@ -17,19 +17,19 @@ export default function SimpleSlider({img1,img2,img3}){
     return(
         <div>
         <Slider {...settings}>
-          <div>
+          <div className={styles.div}>
             <h3>Lorem</h3>
           </div>
-          <div>
+          <div className={styles.div} >
             <h3>Lorem</h3>
           </div>
-          <div>
+          <div className={styles.div}>
             <h3>Lorem</h3>
           </div>
-          <div>
+          <div className={styles.div} >
             <h3>Lorem</h3>
           </div>
-          <div>
+          <div className={styles.div}>
             <h3>Lorem</h3>
           </div>
         </Slider>
