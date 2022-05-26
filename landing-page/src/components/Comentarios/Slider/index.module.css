@@ -1,4 +1,37 @@
 .div{
+    margin-right: 30px;
+    text-align: center;
+    height: auto;
+}
+.p{
+    padding: 40px;
+    font-size:20px;
+    font-weight: 600;
+    line-height:30px;
+    letter-spacing:2px;
+}
+.i_left{
+    position:relative;
+    top:-5px;
+    left:-5px;
+    font-size:30px;
+    color:#ffffff57;
+}
+.i_right{
+    position:relative;
+    bottom:-15px;
+    right:-5px;
+    font-size:30px;
+    color:#ffffff57;
+}
+.img{
+    height:30px;
+}
 
-    border:1px solid white;
+@media screen and (min-width:768px) {
+    .p{
+        padding: 100px;
+        font-size:20px;
+
+    }
 }

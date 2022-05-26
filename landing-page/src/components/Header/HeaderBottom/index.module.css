@@ -71,4 +71,13 @@ bottom:-28px;
     .img{
         bottom:-4px; 
     }
+    .header_bottom{
+        margin-left: 50px;
+    }
+    .header_bottom_div_texto_button1{
+        margin-top:30px;
+    }
+    .header_bottom_div_texto_title{
+        max-width:450px;
+    }
 }

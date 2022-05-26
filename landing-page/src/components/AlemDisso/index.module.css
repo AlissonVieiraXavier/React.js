@@ -6,7 +6,7 @@
     margin-top: 20px;
 }
 .alemdisso_h2{
-    font-size: 20px;
+    font-size: 22px;
     font-weight:900;
     text-align: center;
     margin: 20px 5px;
@@ -46,6 +46,10 @@
 @media screen and (min-width:845px) {
     .div_figures{
         flex-direction: row;
+    }
+    .div_figures_item{
+        max-width: 350px;
+        height: 250px;
     }
     
 }

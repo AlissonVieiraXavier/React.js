@@ -1,9 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import styles from './index.module.css'
+import styles from './index.module.css';
+import {FaQuoteLeft} from 'react-icons/fa';
+import {FaQuoteRight} from 'react-icons/fa';
 
-export default function SimpleSlider({img1,img2,img3}){
+export default function SimpleSlider(){
     
     const settings = {
         infinite: true,
@@ -18,19 +20,19 @@ export default function SimpleSlider({img1,img2,img3}){
         <div>
         <Slider {...settings}>
           <div className={styles.div}>
-            <h3>Lorem</h3>
+            <p className={styles.p}><i className={styles.i_left}><FaQuoteLeft/></i>Lorem ining essentially <br></br>
+            unchanged.
+            the release of Letraset sheets containing <br></br>Lorem Ipsum passages <i className={styles.i_right}><FaQuoteRight/></i></p>
           </div>
           <div className={styles.div} >
-            <h3>Lorem</h3>
+          <p className={styles.p}><i className={styles.i_left}><FaQuoteLeft/></i>Lorem ining essentially <br></br>
+            unchanged. 
+            the release of Letraset sheets containing <br></br>Lorem Ipsum passages <i className={styles.i_right}><FaQuoteRight/></i></p>
           </div>
           <div className={styles.div}>
-            <h3>Lorem</h3>
-          </div>
-          <div className={styles.div} >
-            <h3>Lorem</h3>
-          </div>
-          <div className={styles.div}>
-            <h3>Lorem</h3>
+          <p className={styles.p}><i className={styles.i_left}><FaQuoteLeft/></i>Lorem ining essentially <br></br>
+            unchanged.
+            the release of Letraset sheets containing <br></br>Lorem Ipsum passages <i className={styles.i_right}><FaQuoteRight/></i></p>
           </div>
         </Slider>
       </div>

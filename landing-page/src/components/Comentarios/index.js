@@ -7,7 +7,7 @@ export default function Comentarios()
 {
     return(
        <div className={styles.comentarios}>
-           <h1> Depoimento de participantes </h1>
+           <h1> Depoimentos de Seminários anteriores</h1>
            <div className={styles.content}>
            <SimpleSlider/>
            </div>
