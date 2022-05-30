@@ -1,0 +1,110 @@
+.maindiv{
+    display:flex;
+    flex-direction: column;
+    background:#90449a;
+    padding: 20px auto;
+    margin-top:30px;
+    color: #ffffff;
+}
+.maindiv h1{
+    text-align: center;
+    font-size:25px;
+    padding: 20px;
+    font-weight:bold;
+}
+.img{
+    width:100%;
+    max-width: 500px;
+    border-radius:100%;
+    margin: 20px 0;
+}
+.textos{
+    width:100%;
+    text-align: center;
+
+}
+.textos p{
+    margin-bottom: 20px;
+    font-size:20px;
+    font-weight:500;
+    text-align: left;
+    padding: 20px;
+    line-height:20px;
+    letter-spacing: 1px;
+  
+}
+.responsive{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.button{
+    border-radius:10px;
+    padding: 20px;
+    margin: 0px 20px;
+    border:none;
+    color: #90449a;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms;
+}
+.button:hover{
+    background-color:transparent;
+    color: #ffffff;
+    border:2px solid #ffffff;
+}
+
+@media screen and (min-width: 768px){
+    
+    .responsive{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 98%;
+        margin-top:20px;
+        padding: 10px;
+    }
+    .textos{
+        width:50%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 50px;
+    }
+    .textos p{
+        margin-bottom: 20px;
+      
+    }
+    
+    .img{
+        position: relative;
+        padding-left:200px;
+        width:70%;
+        max-width: none;
+    }
+    .button{
+        border-radius:10px;
+        padding: 20px;
+        margin: 0 20px 0 00px;
+        border:none;
+        color: #90449a;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 500ms;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .button{
+        border-radius:10px;
+        padding: 20px;
+        margin: 0 200px 0 20px;
+        border:none;
+        color: #90449a;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 500ms;
+    }
+}
