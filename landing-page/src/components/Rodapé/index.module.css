@@ -1,0 +1,14 @@
+.rodape{
+    background: #ffffff;
+    text-align: center;
+}
+.rodape h3,.rodape a{
+    font-weight:700;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 40px 0 10px 0;
+}
+.rodape a{
+    color:#90449a;
+}

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Animacao from "./components/Animacao";
 import AlemDisso from "./components/AlemDisso";
 import Duvidas from "./components/Duvidas";
+import Rodape from "./components/Rodapé";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Animacao/>
       <AlemDisso/>
       <Duvidas/>
+      <Rodape/>
 
     </div>
   );
