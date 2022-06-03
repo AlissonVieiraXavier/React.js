@@ -13,8 +13,12 @@ export default function Cardapio(){
                 <div className={styles.header__text}>
                     Especialidade em Frangos <i><GiChickenOven/></i>
                 </div>
-
             </header>
+            <section className={styles.cardapio}>
+                    <h3 className={styles.cardapio__text}>
+                        cardapio
+                    </h3>
+            </section>
         </main>
     )
 }
