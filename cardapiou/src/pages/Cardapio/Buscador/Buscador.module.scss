@@ -1,0 +1,37 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.buscador {
+  align-items: center;
+  background-color: #3b1a1b;
+  border-radius: 5px;
+  display: flex;
+  gap: 18px;
+  height: 42px;
+  
+  justify-content: space-between;
+  padding: 0 15px;
+  width: 400px;
+  margin-left: 20px;
+  @media (max-width: 764px) {
+    width: 80%;
+    margin-left: 10px;
+  }
+  input {
+    background-color: #3b1a1b;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    color:aliceblue;
+    align-self: center;
+    &::placeholder {
+      color: #3b1a1b;
+    }
+  }
+}
+.buscador i{
+    color:#ffffff;
+    font-size: 25px;
+}

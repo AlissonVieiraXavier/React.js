@@ -1,8 +1,14 @@
 import styles from './cardapio.module.scss';
 import logo from 'assets/img/logo.png';
 import {GiChickenOven} from 'react-icons/gi';
+import Buscador from './Buscador';
+import { useState } from 'react';
+import {MdRestaurantMenu} from 'react-icons/md'
 
 export default function Cardapio(){
+    
+    const [busca,setBusca] = useState("");
+
     return(
         <main>
             <nav className={styles.menu}>
@@ -16,8 +22,9 @@ export default function Cardapio(){
             </header>
             <section className={styles.cardapio}>
                     <h3 className={styles.cardapio__text}>
-                        cardapio
+                        cardapio<i><MdRestaurantMenu/></i>
                     </h3>
+                    <Buscador busca={busca} setBusca={setBusca}/>
             </section>
         </main>
     )

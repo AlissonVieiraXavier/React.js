@@ -1,8 +1,11 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
 .menu{
     width: 100%;
     text-align: center;
     padding: 0px 10px;
-    background:#dcd9d7d5;
+   
 }
 .img{
     max-width: 100px;
@@ -13,6 +16,7 @@
     letter-spacing: 1px;
     color:#3b1a1b;
     padding-bottom: 20px;
+
 }
 .header{
     height: 200px;
@@ -24,9 +28,27 @@
     &__text{
        color:#e0e0e0;
        font-size: 25px;
+       text-shadow:1px 1px 0.5px #3b1a1b;
     }
 }
 .header__text i{
     font-size:50px;
     position: relative;
     top:5px;}
+.cardapio{
+
+
+}
+.cardapio__text{
+text-align: left;
+padding-left: 20px;
+font-size: 35px;
+text-transform: uppercase;
+margin:20px;
+color: #3b1a1b;
+}
+.cardapio__text i{
+    position: relative;
+    top:5px;
+    color: #3b1a1b;
+}
