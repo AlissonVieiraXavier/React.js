@@ -1,0 +1,18 @@
+[
+    {
+      "label": "Assados",
+      "id": 1
+    },
+    {
+      "label": "Fritos",
+      "id": 2
+    },
+    {
+      "label": "Pratos",
+      "id": 3
+    },
+    {
+      "label": "Tradicionais",
+      "id": 4
+    }
+  ]

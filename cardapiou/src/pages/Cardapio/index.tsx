@@ -3,11 +3,13 @@ import logo from 'assets/img/logo.png';
 import {GiChickenOven} from 'react-icons/gi';
 import Buscador from './Buscador';
 import { useState } from 'react';
-import {MdRestaurantMenu} from 'react-icons/md'
+import {MdRestaurantMenu} from 'react-icons/md';
+import Filtros from './filtros';
 
 export default function Cardapio(){
     
     const [busca,setBusca] = useState("");
+    const [filtro,setFiltro] = useState<number | null>(null); 
 
     return(
         <main>
@@ -25,6 +27,9 @@ export default function Cardapio(){
                         cardapio<i><MdRestaurantMenu/></i>
                     </h3>
                     <Buscador busca={busca} setBusca={setBusca}/>
+                    <div className={styles.cardapio__filtros}>
+                          <Filtros filtro={filtro} setFiltro={setFiltro}/>
+                    </div>
             </section>
         </main>
     )
