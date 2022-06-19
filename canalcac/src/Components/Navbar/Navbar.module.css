@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    flex-direction:column;
+    margin:0% 5%;
+}
+.logotipo{
+    max-width: 30%;
+}
+.responsive_mobile{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
