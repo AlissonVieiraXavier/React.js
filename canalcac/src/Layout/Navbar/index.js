@@ -1,9 +1,5 @@
 import styles from './Navbar.module.css';
-import {BrowserRouter,Routes,Route,Link} from 'react-router-dom';
-import PaginaInicial from '../../Pages/PaginaInicial';
-import Sobre from '../../Pages/Sobre';
-import MaisVistos from '../../Pages/MaisVistos';
-import Contato from '../../Pages/Contato';
+import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import {GoThreeBars} from 'react-icons/go';
 import {FaInstagram} from 'react-icons/fa';
@@ -30,7 +26,6 @@ export default function Navbar(){
             <img src={logo} alt='Logo' class={styles.logotipo}/>
              <button  onClick={ToggleToActive} className={styles.btn_burger}> <GoThreeBars/> </button>
         </div>
-        <BrowserRouter>
         <ul className={notActive ? styles.list : styles.list_active}>
             <li><Link className={styles.list_item} to="/">Inicio</Link></li>
             <li><Link className={styles.list_item} to="/Sobre">Sobre</Link></li>
@@ -41,15 +36,7 @@ export default function Navbar(){
                 <div onClick={ToYoutube} className={styles.icons_item1}><AiOutlineYoutube/></div>
             </li>
         </ul>
-        <div className={styles.content}>
-        <Routes>
-            <Route exact path='/' element={<PaginaInicial/>}></Route>
-            <Route path='/Sobre' element={<Sobre/>}></Route>
-            <Route path='/Mais-vistos' element={<MaisVistos/>}></Route>
-            <Route path='/Contato' element={<Contato/>}></Route>
-        </Routes>
-        </div>
-        </BrowserRouter>
+
     </nav>
     )
 }
