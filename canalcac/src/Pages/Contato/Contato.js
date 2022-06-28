@@ -1,5 +1,4 @@
 import './Contato.module.css';
-import car from './car.jpg';
 
 export default function Contato(){
     return(
@@ -13,8 +12,6 @@ export default function Contato(){
                  
                  <input type="submit" value="Enviar" />
             </form>
-            <img src={car}/>
-
         </div>
            );
 }
