@@ -20,7 +20,6 @@ function App() {
         </Routes>
         </BrowserRouter>
         <Footer/>
-        
     </div>
   );
 }

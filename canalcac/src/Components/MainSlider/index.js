@@ -1,41 +1,54 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from "react"
 import Glide from "@glidejs/glide";
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import './mainslider.css';
-import Image from '../../assets/img/croche.jpg';
 
-const MainSlider = ()=>{
-// eslint-disable-next-line
-const mainGlide = new Glide(".main__glide"); // default options
 
- useEffect(() => {
-    mainGlide.mount({
-        autoplay: true,
-        animationDuration:3000,
-    });
-    return () => mainGlide.destroy();
-  }, [mainGlide]);
 
-return (
-  <div className={"main__glide"}>
-    <div className="glide__track" data-glide-el="track">
-        <ul className="glide__slides">
-          <li className="glide__slide">
-               <img src={Image} alt="img"/>
-         </li>
-         <li className="glide__slide">
 
-               <img src={Image} alt="img"/>
-         </li>
-         <li className="glide__slide">
-               <img src={Image} alt="img"/>
-         </li>
-         <li className="glide__slide">
-               <img src={Image} alt="img"/>
-         </li>
-      </ul>
-  </div>
-</div>
-)
+
+const sliderConfiguration= {
+  gap: 0,
+  perView: 1,
+  startAt: 0,
+  autoplay:true,
+  animationDuration:6000,
+  type: "carousel",
+
+};
+
+const MainSlider = () => {
+  const slider = new Glide('.glide', sliderConfiguration);
+
+  useEffect(() => {
+    return () => slider.mount()
+  }, [slider])
+
+  return (
+    <div className="container_slide">
+      {" "}
+      <div className='glide'>
+        <div className='glide__track' data-glide-el='track'>
+          <ul className='glide__slides'>
+            <li className='glide__slide slider'>
+                  <div className="div_slide1"> 
+                  waka waka
+                  </div>
+            </li>
+            <li className='glide__slide slider'>
+                  <div className="div_slide2">
+                  </div>
+            </li>
+            <li className='glide__slide slider'>
+                  <div className="div_slide3"> 
+                  </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  )
 }
+
 export default MainSlider;
