@@ -4,9 +4,6 @@ import "@glidejs/glide/dist/css/glide.core.min.css";
 import './mainslider.css';
 
 
-
-
-
 const sliderConfiguration= {
   gap: 0,
   perView: 1,
