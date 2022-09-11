@@ -1,0 +1,94 @@
+.rodape{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0px 30px 0px 30px;
+    background:#e1e1e1;
+    position: relative;
+    bottom: 0px;
+}
+.logodescrição img{
+    max-width: 50%;
+}
+.logodescrição p{
+    font-size:14px;
+    padding: 20px 20px;
+    position: relative;
+    top:-30px;
+    left:-10px;
+    color: var(--third-color);
+}
+.footer_contatos,.footer_followus{
+    display: flex;
+    flex-direction: column;
+    line-height:50px;
+    padding: 30px 10px;
+}
+.footer_contatos p,.footer_followus p,.footer_icons{
+    color: var(--third-color);
+    font-size:14px;
+}
+.footer_contatos p:hover,.footer_followus p:hover{
+    transition: 500ms;
+    color:black;
+}
+.footer_title{
+    font-weight:700;
+}
+.footer_icons i{
+    font-size:18px;
+    margin-left: 10px;
+    cursor:pointer;
+    transition: 500ms;
+}
+.footer_icons i:hover{
+    transition: 500ms;
+    color:black;
+}
+.direitos{
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    text-align:center;
+    padding: 20px;
+    height:30px;
+}
+.direitos a{
+    text-decoration: none;
+    color:black;
+}
+.direitos a:hover{
+    color:#196fc2;
+}
+
+
+@media screen and (min-width: 768px){
+    .rodape{
+        flex-direction: row;
+        padding:0px 30px 0px 10px;
+    }
+    .logodescrição{
+        width: 50%;
+        padding-left: 80px;
+    }
+    .logodescrição p{
+        max-width: 80%;
+    }
+    .footer_contatos{
+        width: 25%;
+    } 
+    .footer_followus{
+        width: 25%; 
+    }
+    .logodescrição img{
+        max-width: 35%;
+    }
+   
+}
+@media screen and (min-width:1200px) {
+    .rodape{
+        padding:0px 30px 0px 50px;
+    }
+    
+}
